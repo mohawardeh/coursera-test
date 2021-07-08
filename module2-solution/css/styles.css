@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    width: 100%;
+}
+
+@media(min-width: 992px)
+{
+    .col-Desktop-1, .col-Desktop-2, .col-Desktop-3, .col-Desktop-4, .col-Desktop-5, .col-Desktop-6,
+    .col-Desktop-7, .col-Desktop-8, .col-Desktop-9, .col-Desktop-10, .col-Desktop-11, .col-Desktop-12
+    {
+        float: left;
+    }
+    .col-Desktop-1{
+        width:8.33%;
+    }
+    .col-Desktop-2{
+        width:16.66%;
+    }
+    .col-Desktop-3{
+        width:25%;
+    }
+    .col-Desktop-4{
+        width:33%;
+    }
+    .col-Desktop-5{
+        width:41.66%;
+    }
+    .col-Desktop-6{
+        width:50%;
+    }
+    .col-Desktop-7{
+        width:58.33%;
+    }
+    .col-Desktop-8{
+        width:66.66%;
+    }
+    .col-Desktop-9{
+        width:75%;
+    }
+    .col-Desktop-10{
+        width:83%;
+    }
+    .col-Desktop-11{
+        width:91.66%;
+    }
+    .col-Desktop-12{
+        width:100%;
+    }
+}
+
+@media(min-width: 768px) and (max-width:991px) 
+{
+    .col-Tablet-1, .col-Tablet-2, .col-Tablet-3, .col-Tablet-4, .col-Tablet-5, .col-Tablet-6,
+    .col-Tablet-7, .col-Tablet-8, .col-Tablet-9, .col-Tablet-10, .col-Tablet-11, .col-Tablet-12
+    {
+        float: left;
+    }
+    .col-Tablet-1{
+        width:8.33%;
+    }
+    .col-Tablet-2{
+        width:16.66%;
+    }
+    .col-Tablet-3{
+        width:25%;
+    }
+    .col-Tablet-4{
+        width:33%;
+    }
+    .col-Tablet-5{
+        width:41.66%;
+    }
+    .col-Tablet-6{
+        width:50%;
+    }
+    .col-Tablet-7{
+        width:58.33%;
+    }
+    .col-Tablet-8{
+        width:66.66%;
+    }
+    .col-Tablet-9{
+        width:75%;
+    }
+    .col-Tablet-10{
+        width:83%;
+    }
+    .col-Tablet-11{
+        width:91.66%;
+    }
+    .col-Tablet-12{
+        width:100%;
+    }
+}
+
+@media (max-width:767px) 
+{
+    .col-Mobile-1, .col-Mobile-2, .col-Mobile-3, .col-Mobile-4, .col-Mobile-5, .col-Mobile-6,
+    .col-Mobile-7, .col-Mobile-8, .col-Mobile-9, .col-Mobile-10, .col-Mobile-11, .col-Mobile-12
+    {
+        float: left;
+    }
+    .col-Mobile-1{
+        width:8.33%;
+    }
+    .col-Mobile-2{
+        width:16.66%;
+    }
+    .col-Mobile-3{
+        width:25%;
+    }
+    .col-Mobile-4{
+        width:33%;
+    }
+    .col-Mobile-5{
+        width:41.66%;
+    }
+    .col-Mobile-6{
+        width:50%;
+    }
+    .col-Mobile-7{
+        width:58.33%;
+    }
+    .col-Mobile-8{
+        width:66.66%;
+    }
+    .col-Mobile-9{
+        width:75%;
+    }
+    .col-Mobile-10{
+        width:83%;
+    }
+    .col-Mobile-11{
+        width:91.66%;
+    }
+    .col-Mobile-12{
+        width:100%;
+    }
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 175%;
+}
+.menu-title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left:1px solid black;
+    border-bottom:1px solid black;
+    padding: 2px;
+    width:100px;
+    text-align: center;
+    font-size: 125%;
+}
+
+.menu-item{
+    margin: 10px;
+    border: 1px solid black;
+    position: relative;
+    padding-top: 38px;
+    padding-left:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    background-color: gray;
+}
+
+.chicken-header{
+    background-color: hotpink;
+}
+
+.beef-header{
+    background-color:orangered;
+}
+
+.sushi-header{
+    background-color:sandybrown;
+}
+
